@@ -1,0 +1,14 @@
+{
+  "name": "@ahaines/b",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@ahaines/a": "workspace:*"
+  }
+}

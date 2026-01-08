@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node24",
+  "references": [{"path": "../a"}],
+  "include": ["src"],
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "dist",
+    "rootDir": "src"
+  }
+}

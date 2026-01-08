@@ -1,0 +1,14 @@
+{
+  "name": "@ahaines/monorepo",
+  "private": true,
+  "packageManager": "pnpm@10.27.0",
+  "scripts": {
+    "build": "tsc --build",
+    "docs": "typedoc"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "24.0.3",
+    "typedoc": "0.28.15",
+    "typescript": "5.9.3"
+  }
+}
